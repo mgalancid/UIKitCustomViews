@@ -1,13 +1,14 @@
 //
-//  BandModel.h
+//  BandListViewModel.h
 //  UIKitCustomViews
 //
-//  Created by Lautaro Galan on 15/06/2023.
+//  Created by Lautaro Galan on 11/07/2023.
 //
 
 #import <Foundation/Foundation.h>
+#import "BandModel.h"
 
-@interface BandModel : NSObject
+@interface BandListViewModel : NSObject
 
 @property (nonatomic, strong) NSString *profilePic;
 @property (nonatomic, strong) NSString *bandName;
@@ -22,5 +23,7 @@
                    bandDescription:(NSString *)bandDescription
                          startDate:(NSString *)startDate
                      originCountry:(NSString *)originCountry;
+
++ (NSArray<BandListViewModel *> *)getList;
 
 @end

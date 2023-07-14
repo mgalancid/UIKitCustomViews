@@ -7,7 +7,10 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
+#import "BandListViewModel.h"
 
 @interface BandListTableViewController : UITableViewController
+
+@property (nonatomic, strong) BandListViewModel *bandListViewModel;
 
 @end

@@ -7,22 +7,23 @@
 
 #import "AppDelegate.h"
 #import "BandListTableViewController.h"
+#import "BandModel.h"
+
+@interface AppDelegate ()
+
+@end
 
 @implementation AppDelegate
 
-@synthesize window = _window;
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
+
     BandListTableViewController *bandListTableViewController = [[BandListTableViewController alloc] initWithStyle:UITableViewStylePlain];
-    
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:bandListTableViewController];
-    
+
     self.window.rootViewController = navigationController;
-    
     [self.window makeKeyAndVisible];
-    
+
     return YES;
 }
 
