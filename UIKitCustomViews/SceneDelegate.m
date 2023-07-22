@@ -8,6 +8,9 @@
 #import "SceneDelegate.h"
 #import "BandListTableViewController.h"
 
+#import "SceneDelegate.h"
+#import "BandListTableViewController.h"
+
 @interface SceneDelegate ()
 
 @end
@@ -16,10 +19,21 @@
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
     self.window = [[UIWindow alloc] initWithWindowScene:(UIWindowScene *)scene];
-    self.window.rootViewController = [[BandListTableViewController alloc] init];
+    
+    BandListTableViewController *bandListTableViewController = [[BandListTableViewController alloc] init];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:bandListTableViewController];
+    
+    self.window.rootViewController = navigationController;
+    
     [self.window makeKeyAndVisible];
 }
 
+
+
+//let navigationController = UINavigationController()
+// navigationController.pushViewController(MainRouter.createModule(using: navigationController), animated: false)
+// window.rootViewController = navigationController
+// window.makeKeyAndVisible()
 
 
 - (void)sceneDidDisconnect:(UIScene *)scene {

@@ -19,9 +19,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
     BandListTableViewController *bandListTableViewController = [[BandListTableViewController alloc] initWithStyle:UITableViewStylePlain];
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:bandListTableViewController];
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:bandListTableViewController];
 
-    self.window.rootViewController = navigationController;
+    self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
 
     return YES;

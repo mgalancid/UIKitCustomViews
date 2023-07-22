@@ -74,18 +74,12 @@
     if (indexPath.row < self.bandList.count) {
         bandDetailViewController.band = self.bandList[indexPath.row];
         
-        
-        bandDetailViewController.title = bandDetailViewController.band.bandName;
-        UILabel *bandNameLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 30)];
-        bandNameLabel.text = bandDetailViewController.band.bandName;
-        [bandDetailViewController.view addSubview:bandNameLabel];
-        
+        //UI Back Button
         UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:nil action:nil];
         self.navigationItem.backBarButtonItem = backButton;
-        //TODO - navigation controller not entering detail view controller
+        
         [self.navigationController pushViewController:bandDetailViewController animated:YES];
     }
 }
-
 
 @end
