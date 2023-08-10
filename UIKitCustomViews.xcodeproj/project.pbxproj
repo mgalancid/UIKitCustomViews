@@ -7,23 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9726E7AA2A5E265B00DA05D4 /* BandListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9726E7A92A5E265B00DA05D4 /* BandListViewModel.m */; };
-		9772A9BD2A610698000AF46A /* BandDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9772A9BC2A610698000AF46A /* BandDetailViewController.m */; };
+		9707CEE02A81B32A00659BA6 /* Credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9707CEDF2A81B32A00659BA6 /* Credentials.plist */; };
+		9726E7AA2A5E265B00DA05D4 /* LastFMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9726E7A92A5E265B00DA05D4 /* LastFMViewModel.m */; };
+		9772A9BD2A610698000AF46A /* LastFMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9772A9BC2A610698000AF46A /* LastFMDetailViewController.m */; };
 		97939C412A39592500C327FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97939C402A39592500C327FE /* AppDelegate.m */; };
 		97939C442A39592500C327FE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97939C432A39592500C327FE /* SceneDelegate.m */; };
 		97939C4C2A39592600C327FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97939C4B2A39592600C327FE /* Assets.xcassets */; };
 		97939C4F2A39592600C327FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97939C4D2A39592600C327FE /* LaunchScreen.storyboard */; };
-		97939C622A3959BD00C327FE /* BandListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97939C612A3959BD00C327FE /* BandListTableViewController.m */; };
+		97939C622A3959BD00C327FE /* LastFMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97939C612A3959BD00C327FE /* LastFMTableViewController.m */; };
 		97939C652A395E0000C327FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97939C642A395E0000C327FE /* main.m */; };
-		97F077F82A3BDFCE00FE4A3F /* BandModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F077F72A3BDFCE00FE4A3F /* BandModel.m */; };
-		97F078092A3C0E7800FE4A3F /* BandTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F078082A3C0E7800FE4A3F /* BandTableViewCell.swift */; };
+		97D2CC222A83126900C7D5F2 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 97D2CC212A83126900C7D5F2 /* CryptoSwift */; };
+		97F078092A3C0E7800FE4A3F /* LastFMTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F078082A3C0E7800FE4A3F /* LastFMTableViewCell.swift */; };
+		97F1166B2A7EF62400A51E8E /* ArtistInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1166A2A7EF62400A51E8E /* ArtistInfo.swift */; };
+		97F1166D2A7EF62C00A51E8E /* ArtistBio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1166C2A7EF62C00A51E8E /* ArtistBio.swift */; };
+		97F1166F2A7EF69E00A51E8E /* LastFMImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1166E2A7EF69E00A51E8E /* LastFMImage.swift */; };
+		97F116712A7EF88400A51E8E /* APINetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F116702A7EF88400A51E8E /* APINetwork.swift */; };
+		97F116762A7F07D100A51E8E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F116752A7F07D100A51E8E /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9726E7A92A5E265B00DA05D4 /* BandListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BandListViewModel.m; path = UIKitCustomViews/BandListViewModel.m; sourceTree = SOURCE_ROOT; };
-		9726E7AB2A5E266600DA05D4 /* BandListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BandListViewModel.h; path = UIKitCustomViews/BandListViewModel.h; sourceTree = SOURCE_ROOT; };
-		9772A9BB2A610698000AF46A /* BandDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BandDetailViewController.h; sourceTree = "<group>"; };
-		9772A9BC2A610698000AF46A /* BandDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BandDetailViewController.m; sourceTree = "<group>"; };
+		9707CEDF2A81B32A00659BA6 /* Credentials.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Credentials.plist; sourceTree = "<group>"; };
+		9726E7A92A5E265B00DA05D4 /* LastFMViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LastFMViewModel.m; path = UIKitCustomViews/LastFMViewModel.m; sourceTree = SOURCE_ROOT; };
+		9726E7AB2A5E266600DA05D4 /* LastFMViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LastFMViewModel.h; path = UIKitCustomViews/LastFMViewModel.h; sourceTree = SOURCE_ROOT; };
+		9772A9BB2A610698000AF46A /* LastFMDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LastFMDetailViewController.h; sourceTree = "<group>"; };
+		9772A9BC2A610698000AF46A /* LastFMDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LastFMDetailViewController.m; sourceTree = "<group>"; };
 		97939C3C2A39592500C327FE /* UIKitCustomViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitCustomViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97939C3F2A39592500C327FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		97939C402A39592500C327FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,13 +39,17 @@
 		97939C4B2A39592600C327FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97939C4E2A39592600C327FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97939C502A39592600C327FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97939C612A3959BD00C327FE /* BandListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BandListTableViewController.m; sourceTree = "<group>"; };
-		97939C632A3959CA00C327FE /* BandListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BandListTableViewController.h; sourceTree = "<group>"; };
+		97939C612A3959BD00C327FE /* LastFMTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LastFMTableViewController.m; sourceTree = "<group>"; };
+		97939C632A3959CA00C327FE /* LastFMTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LastFMTableViewController.h; sourceTree = "<group>"; };
 		97939C642A395E0000C327FE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		97F077F72A3BDFCE00FE4A3F /* BandModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BandModel.m; sourceTree = "<group>"; };
-		97F077F92A3BDFD700FE4A3F /* BandModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BandModel.h; sourceTree = "<group>"; };
+		97C076452A8047BC0009D025 /* ArtistInfoWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtistInfoWrapper.h; sourceTree = "<group>"; };
 		97F078072A3C0E7800FE4A3F /* UIKitCustomViews-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIKitCustomViews-Bridging-Header.h"; sourceTree = "<group>"; };
-		97F078082A3C0E7800FE4A3F /* BandTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandTableViewCell.swift; sourceTree = "<group>"; };
+		97F078082A3C0E7800FE4A3F /* LastFMTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastFMTableViewCell.swift; sourceTree = "<group>"; };
+		97F1166A2A7EF62400A51E8E /* ArtistInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistInfo.swift; sourceTree = "<group>"; };
+		97F1166C2A7EF62C00A51E8E /* ArtistBio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistBio.swift; sourceTree = "<group>"; };
+		97F1166E2A7EF69E00A51E8E /* LastFMImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastFMImage.swift; sourceTree = "<group>"; };
+		97F116702A7EF88400A51E8E /* APINetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APINetwork.swift; sourceTree = "<group>"; };
+		97F116752A7F07D100A51E8E /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97D2CC222A83126900C7D5F2 /* CryptoSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,14 +87,13 @@
 				97939C5A2A39594500C327FE /* Views */,
 				97939C592A39593E00C327FE /* ViewModels */,
 				97939C582A39593200C327FE /* Supporting */,
-				97939C3F2A39592500C327FE /* AppDelegate.h */,
-				97939C402A39592500C327FE /* AppDelegate.m */,
-				97939C422A39592500C327FE /* SceneDelegate.h */,
-				97939C432A39592500C327FE /* SceneDelegate.m */,
-				97939C4B2A39592600C327FE /* Assets.xcassets */,
+				97F116742A7F07B600A51E8E /* Managers */,
+				97F116692A7EF46B00A51E8E /* Networking */,
+				97F078072A3C0E7800FE4A3F /* UIKitCustomViews-Bridging-Header.h */,
 				97939C4D2A39592600C327FE /* LaunchScreen.storyboard */,
 				97939C502A39592600C327FE /* Info.plist */,
 				97939C642A395E0000C327FE /* main.m */,
+				9707CEDF2A81B32A00659BA6 /* Credentials.plist */,
 			);
 			path = UIKitCustomViews;
 			sourceTree = "<group>";
@@ -90,6 +101,9 @@
 		97939C582A39593200C327FE /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
+				97F116682A7EF20600A51E8E /* Assets */,
+				97F116662A7EF1D300A51E8E /* AppDelegate */,
+				97F116672A7EF1E600A51E8E /* SceneDelegate */,
 			);
 			path = Supporting;
 			sourceTree = "<group>";
@@ -97,8 +111,8 @@
 		97939C592A39593E00C327FE /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				9726E7AB2A5E266600DA05D4 /* BandListViewModel.h */,
-				9726E7A92A5E265B00DA05D4 /* BandListViewModel.m */,
+				9726E7AB2A5E266600DA05D4 /* LastFMViewModel.h */,
+				9726E7A92A5E265B00DA05D4 /* LastFMViewModel.m */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -106,10 +120,10 @@
 		97939C5A2A39594500C327FE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				97939C632A3959CA00C327FE /* BandListTableViewController.h */,
-				97939C612A3959BD00C327FE /* BandListTableViewController.m */,
-				9772A9BB2A610698000AF46A /* BandDetailViewController.h */,
-				9772A9BC2A610698000AF46A /* BandDetailViewController.m */,
+				97939C632A3959CA00C327FE /* LastFMTableViewController.h */,
+				97939C612A3959BD00C327FE /* LastFMTableViewController.m */,
+				9772A9BB2A610698000AF46A /* LastFMDetailViewController.h */,
+				9772A9BC2A610698000AF46A /* LastFMDetailViewController.m */,
 				97939C5C2A39595600C327FE /* Cells */,
 			);
 			path = Views;
@@ -118,8 +132,10 @@
 		97939C5B2A39594F00C327FE /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				97F077F92A3BDFD700FE4A3F /* BandModel.h */,
-				97F077F72A3BDFCE00FE4A3F /* BandModel.m */,
+				97C076452A8047BC0009D025 /* ArtistInfoWrapper.h */,
+				97F1166A2A7EF62400A51E8E /* ArtistInfo.swift */,
+				97F1166C2A7EF62C00A51E8E /* ArtistBio.swift */,
+				97F1166E2A7EF69E00A51E8E /* LastFMImage.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -127,10 +143,51 @@
 		97939C5C2A39595600C327FE /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				97F078072A3C0E7800FE4A3F /* UIKitCustomViews-Bridging-Header.h */,
-				97F078082A3C0E7800FE4A3F /* BandTableViewCell.swift */,
+				97F078082A3C0E7800FE4A3F /* LastFMTableViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		97F116662A7EF1D300A51E8E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				97939C3F2A39592500C327FE /* AppDelegate.h */,
+				97939C402A39592500C327FE /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		97F116672A7EF1E600A51E8E /* SceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				97939C422A39592500C327FE /* SceneDelegate.h */,
+				97939C432A39592500C327FE /* SceneDelegate.m */,
+			);
+			path = SceneDelegate;
+			sourceTree = "<group>";
+		};
+		97F116682A7EF20600A51E8E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				97939C4B2A39592600C327FE /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		97F116692A7EF46B00A51E8E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				97F116702A7EF88400A51E8E /* APINetwork.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		97F116742A7F07B600A51E8E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				97F116752A7F07D100A51E8E /* APIManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +206,9 @@
 			dependencies = (
 			);
 			name = UIKitCustomViews;
+			packageProductDependencies = (
+				97D2CC212A83126900C7D5F2 /* CryptoSwift */,
+			);
 			productName = UIKitCustomViews;
 			productReference = 97939C3C2A39592500C327FE /* UIKitCustomViews.app */;
 			productType = "com.apple.product-type.application";
@@ -177,6 +237,9 @@
 				Base,
 			);
 			mainGroup = 97939C332A39592500C327FE;
+			packageReferences = (
+				97D2CC202A83126900C7D5F2 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+			);
 			productRefGroup = 97939C3D2A39592500C327FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -191,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9707CEE02A81B32A00659BA6 /* Credentials.plist in Resources */,
 				97939C4F2A39592600C327FE /* LaunchScreen.storyboard in Resources */,
 				97939C4C2A39592600C327FE /* Assets.xcassets in Resources */,
 			);
@@ -203,14 +267,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97F116762A7F07D100A51E8E /* APIManager.swift in Sources */,
 				97939C652A395E0000C327FE /* main.m in Sources */,
 				97939C412A39592500C327FE /* AppDelegate.m in Sources */,
-				97F077F82A3BDFCE00FE4A3F /* BandModel.m in Sources */,
-				9726E7AA2A5E265B00DA05D4 /* BandListViewModel.m in Sources */,
-				97F078092A3C0E7800FE4A3F /* BandTableViewCell.swift in Sources */,
+				97F1166F2A7EF69E00A51E8E /* LastFMImage.swift in Sources */,
+				9726E7AA2A5E265B00DA05D4 /* LastFMViewModel.m in Sources */,
+				97F078092A3C0E7800FE4A3F /* LastFMTableViewCell.swift in Sources */,
+				97F1166D2A7EF62C00A51E8E /* ArtistBio.swift in Sources */,
 				97939C442A39592500C327FE /* SceneDelegate.m in Sources */,
-				97939C622A3959BD00C327FE /* BandListTableViewController.m in Sources */,
-				9772A9BD2A610698000AF46A /* BandDetailViewController.m in Sources */,
+				97939C622A3959BD00C327FE /* LastFMTableViewController.m in Sources */,
+				97F116712A7EF88400A51E8E /* APINetwork.swift in Sources */,
+				97F1166B2A7EF62400A51E8E /* ArtistInfo.swift in Sources */,
+				9772A9BD2A610698000AF46A /* LastFMDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,7 +429,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lgalancid.UIKitCustomViews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "UIKitCustomViews/Views/Cells/UIKitCustomViews-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/lgalancid/maxi/UIKitCustomViews/UIKitCustomViews/UIKitCustomViews-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -391,7 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lgalancid.UIKitCustomViews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "UIKitCustomViews/Views/Cells/UIKitCustomViews-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/lgalancid/maxi/UIKitCustomViews/UIKitCustomViews/UIKitCustomViews-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -419,6 +487,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		97D2CC202A83126900C7D5F2 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		97D2CC212A83126900C7D5F2 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97D2CC202A83126900C7D5F2 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 97939C342A39592500C327FE /* Project object */;
 }
